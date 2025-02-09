@@ -1,0 +1,1 @@
+The CSS property `calc()` is used incorrectly.  The calculation is missing the required spaces between operators and operands, leading to unexpected results. For example, `width:calc(100%-10px);` is incorrect, it should be `width: calc(100% - 10px);`.
