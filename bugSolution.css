@@ -1,0 +1,9 @@
+The correct use of `calc()` requires spaces between operators and operands:
+
+```css
+width: calc(100% - 10px);
+height: calc(50vh - 20px);
+margin: calc(10px + 5%);
+```
+
+Without the spaces, the CSS parser might not be able to understand the intended calculation, leading to unpredictable outcomes.
